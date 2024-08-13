@@ -1,14 +1,232 @@
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1303px){
 
 
+    .navbar-nav{
+        flex-wrap: wrap;
+    }
+    .nav-item a{
+        padding: 0 10px!important;
+    }
+}  
+   
+@media screen and (max-width: 1163px){
+
+
+    .navbar-nav{
+        flex-wrap: wrap;
+    }
+    .nav-item a{
+        font-size: 14px;
+        padding: 0 10px!important;
+    }
+    .menu-btn a {
+        padding: 8px 23px;
+        font-size: 14px;
+        display: block;
+    }
+   
+
+}
+@media screen and (max-width: 991px){
+
+    .menu-btn {
+        display: none;
+    }
+    i.fa-solid.fa-bars {
+        position: absolute;
+        right: 22px;
+    }
+    li.nav-item {
+        /* margin-top: 17px; */
+        margin: 14px 0;
+    }
+    li.nav-item.mobile-menu-btn a{
+        background: #c60505;
+        display: inline-block;
+        padding: 8px 18px!important;
+        color: #fff!important;
+    }
+ 
+    .navbar-toggler:focus{
+        box-shadow:none!important;
+        outline: none!important;
+    }
+    .mobile-menu-btn{
+        display: block;
+    }
+    .hero-container{
+        flex-direction: column;
+    }
+    
+   
+
+}
+@media screen and (max-width: 980px){
+
+
+    .hero-container {
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .hero-content{
+        width: 100%;
+    }
+    .hero-form{
+        width: 100%;
+        margin-top: 40px
+    }
+    .hero{
+        height: auto;
+    }
+    .hero-desktop{
+        display: none;
+    }
+    .container{
+        max-width: 85%!important;
+    }
+    .service-area-content{
+        padding-right: 0;
+        padding-bottom: 60px;
+    }
+    .home-service-iteam {
+        width: 100%;
+    }
+    .grid-container {
+        grid-template-columns: 1fr; 
+    }
+
+    .grid-item {
+        order: 0; 
+    }
+
+    .first {
+        order: 1; 
+    }
+
+    .last {
+        order: 2; 
+    }
+
+    .middle {
+        order: 3;
+    }
+    .testmonail-main{
+        flex-direction: column;
+    }
+    .testmonail-left{
+        width: 100%;
+    }
+    .testmonail-right{
+        width: 100%;
+    }
+    .cta{
+        background: #01254c;
+        padding: 10px 0;
+        flex-direction: column;
+    }
+    .cta-left{
+        background: #01254c;
+        width: 100%;
+        justify-content: center;
+        padding: 0;
+    }
+    .cta-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .left-arrow{
+        display: none;
+    }
+    .contact-main{
+        flex-direction: column;
+    }
+    .contact-left{
+        width: 100%;
+        padding: 50px;
+    }
+    .contact-right{
+        width: 100%;
+    }
+    .contact-us>.section-corner img{
+        display: none;
+    }
+    .section-corner2 {
+        display: none;
+    }
+    .get-quote{
+        display: none;
+    }
+}
+   
+
+
+@media screen and (max-width: 767px){
+
+    h1{
+        font-size: 38px!important;
+    }
+    h2{
+        font-size: 47px!important;
+    }
     .for-desktop{
         display: none;
     }
     .for-mobile{
         display: block;
     }
-    .geeks img{
-        width: 70%;
+    .work-iteam{
+        width: 100%;
+    }
+    .middle img{
+        width: 100%;
+    }
+    .testmonail-iteam{
+        flex-direction: column;
+    }
+    .test-right{
+        padding: 0;
+    }
+    .testmonail-right{
+        padding: 30px 15px;
+    }
+    .test-right p{
+        margin-top: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .foter-menu h3{
+        margin: 20px 0;
+    }
+    .contact-left h2{
+        font-size: 30px!important;
+    }
+    .long-container {
+        width: 92%;
+        margin: 0 auto;
+    }
+    .testmonail-left{
+        padding: 30px 20px;
+    }
+    .center-title h3 {
+        font-size: 30px !important;
+        font-weight: 300;
+        font-family: "Source Sans 3", sans-serif;
+    }
+    .navbar-brand img {
+        width: 193px;
+    }
+    .center-title h2{
+        font-size: 31px!important;
+    }
+    .section-padding{
+        padding: 50px 0;
+    }
+    .padd-20{
+        padding: 0!important;
     }
 
 }

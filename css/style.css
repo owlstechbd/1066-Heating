@@ -125,6 +125,7 @@ p{
 	padding: 8px 25px;
 	text-transform: uppercase;
 	color: #fff;
+	
 }
 .hero-content a:hover{
 	color: #fff;
@@ -229,6 +230,9 @@ p{
 	padding:20px 30px ;
 	border-top-left-radius: 50%;
 	border-bottom-left-radius: 50%;
+}
+.mobile-menu-btn{
+	display: none;
 }
 .quote-text{
 	display: flex;
@@ -859,4 +863,56 @@ section.fun-fact.section-padding {
 	padding: 10px;
 	border-radius: 100%;
 	background: #2ea3f2;
+}
+/* blog */
+.blog{
+	position: relative;
+}
+.blog-heading{
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 30px!important;
+}
+.blog-box{
+	border: 1px solid #d8d8d8;
+	background: #f5f5f5;
+	width: 100%;
+}
+.blog-box img{
+	width: 100%;
+}
+.blog-content{
+	padding: 30px 20px;
+}
+.blog-content button{
+	padding: 8px 14px;
+	margin: 20px 0 10px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+}
+.contact-area{
+	position: relative;
+}
+.contact-from{
+	width: 100%;
+}
+.contact-img img{
+	height: auto;
+}
+.single-img{
+	text-align: center;
+}
+.single-img img{
+	margin: 150px 0 80px;
+}
+.blog-single p{
+	margin: 25px 0;
+}
+.blog-single h3{
+	margin: 25px 0;
+}
+.blog-single h2{
+	margin: 35px 0;
 }
