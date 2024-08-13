@@ -719,6 +719,9 @@ footer{
 	padding: 120px 0;
 }
 /* main-service */
+	.main-service{
+		position: relative;
+	}
 .service-main-iteam{
 	border: 1px solid #d8d8d8;
 	margin-bottom: 50px;
@@ -735,6 +738,9 @@ footer{
 	padding: 0 30px!important;
 }
 /* .about-us */
+.about-us{
+	position: relative;
+}
 .about-us-area h4{
 	font-weight: 700;
 	margin: 0;
@@ -905,6 +911,7 @@ section.fun-fact.section-padding {
 	text-align: center;
 }
 .single-img img{
+	width: 100%;
 	margin: 150px 0 80px;
 }
 .blog-single p{

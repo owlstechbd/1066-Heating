@@ -159,6 +159,10 @@
     .get-quote{
         display: none;
     }
+    .contact-img img{
+        width: 100%;
+        margin-top: 50px;
+    }
 }
    
 
@@ -222,12 +226,48 @@
     .center-title h2{
         font-size: 31px!important;
     }
-    .section-padding{
-        padding: 50px 0;
-    }
+    
     .padd-20{
         padding: 0!important;
+    }
+    .center-img {
+        width: 100%;
+      
+    }
+    .partner-logo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .partner-logo img {
+        width: 100%;
+        height: auto;
+    }
+    .testimonial-item{
+        left: -3%!important;
+    }
+    .gallery-iteam{
+        width: 100%;
+    }
+    .blog-box{
+        margin-bottom: 30px;
     }
 
 }
 
+@media screen and (max-width: 600px){
+    .service-iteam {
+        width: 100%;
+       
+    }
+    .service-iteam-img {
+        height: auto;
+    }
+    .mar-top-logo img{
+        position: relative;
+        width: 100%;
+        z-index: 999!important;
+    }
+    .section-corner img{
+        z-index: 1;
+    }
+}
