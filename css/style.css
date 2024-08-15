@@ -844,7 +844,9 @@ section.fun-fact.section-padding {
 }
 .gallery-iteam img{
 	width: 100%;
+	display: block;
 }
+
 
 .plus{
 	position: absolute;

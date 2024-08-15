@@ -3,8 +3,12 @@ var elem = document.querySelector('.testimonial-container');
             itemSelector: '.testimonial-item',
             columnWidth: '.testimonial-item',
             percentPosition: true,
-            gutter: 10 // Space between items
+            gutter: 10 // Adjust as needed
         });
-// animation
+
+        // Initialize Masonry after all images are loaded
+        imagesLoaded(elem, function() {
+            msnry.layout();
+        });
 
   new WOW().init();
