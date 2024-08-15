@@ -24,6 +24,9 @@
         font-size: 14px;
         display: block;
     }
+    .center-img{
+        width: 100%;
+    }
    
 
 }
@@ -57,13 +60,16 @@
     .hero-container{
         flex-direction: column;
     }
+    .contact-img {
+        display: none;
+    }
     
    
 
 }
 @media screen and (max-width: 980px){
 
-
+    
     .hero-container {
         width: 100%;
         flex-direction: column;
@@ -163,6 +169,24 @@
         width: 100%;
         margin-top: 50px;
     }
+    .gobal-btn a {
+        color: #fff;
+        padding: 10px 11px;
+        display: inline-block;
+        font-size: 15px;
+    }
+    .partner-logo img{
+        margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 979px){
+    
+    .testimonial-item{
+        width: 46%!important;
+        
+    }
 }
    
 
@@ -184,6 +208,7 @@
     .work-iteam{
         width: 100%;
     }
+    
     .middle img{
         width: 100%;
     }
@@ -238,11 +263,11 @@
         text-align: center;
         margin-bottom: 30px;
     }
-    .partner-logo img {
-        width: 100%;
-        height: auto;
+    .partner-logo img{
+        
     }
     .testimonial-item{
+        width: 100%!important;
         left: -3%!important;
     }
     .gallery-iteam{
